@@ -342,6 +342,13 @@ config MACH_A9XPROLTE_CHN_OPEN
         help
           Support for Samsung A9XPROLTE CHN OPEN device.
 
+config MACH_A9XPROLTE_SEA_OPEN
+        bool "Samsung A9XPROLTE SEA OPEN"
+        depends on SEC_A9XPROLTE_PROJECT
+        default n
+        help
+          Support for Samsung A9XPROLTE SEA OPEN device.
+
 config PROJECT_GTS28VE
         bool "Samsung GTS28VE Project"
         depends on ARCH_MSM8976

@@ -27,6 +27,9 @@ ifeq ($(CONFIG_SEC_A9XPROLTE_PROJECT),y)
                 dtb-y += msm8976-sec-a9xprolte-chn-r00.dtb
                 dtb-y += msm8976-sec-a9xprolte-chn-r01.dtb
         endif
+        ifeq ($(CONFIG_MACH_A9XPROLTE_SEA_OPEN),y)
+                dtb-y += msm8976-sec-a9xprolte-sea-r00.dtb
+        endif
 endif
 
 ifeq ($(CONFIG_SEC_GTS28VELTE_PROJECT),y)
