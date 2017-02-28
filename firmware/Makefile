@@ -139,6 +139,7 @@ fw-shipped-$(CONFIG_YAM) += yam/1200.bin yam/9600.bin
 # Input Device
 fw-shipped-$(CONFIG_TOUCHSCREEN_MELFAS_MMS449)		+= tsp_melfas/mms449_a8.fw
 fw-shipped-$(CONFIG_TOUCHSCREEN_MELFAS_MMS449)		+= tsp_melfas/mms449_a9.fw
+fw-shipped-$(CONFIG_TOUCHSCREEN_MELFAS_MMS449)		+= tsp_melfas/mms449_a9xpro.fw
 fw-shipped-$(CONFIG_TOUCHSCREEN_ZT7538_TS)	+= tsp_zinitix/zt7538_a5x.fw
 
 
@@ -157,6 +158,7 @@ endif
 
 ifdef CONFIG_SEC_A9XPROLTE_PROJECT
 fw-shipped-$(CONFIG_KEYBOARD_ABOV_TOUCH_18XX) += abov/abov_tk_1804_a9xpro.fw
+fw-shipped-$(CONFIG_KEYBOARD_TC300K)				+= coreriver/tc305k_a9x.fw
 endif
 
 ifdef CONFIG_SEC_J7XLTE_PROJECT
